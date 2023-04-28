@@ -13,7 +13,7 @@ if you have organized ROM directory same with /recalbox/share/roms, use simplifi
 
 - when your ROM directory is organized same with /recalbox/share/roms, your samba shared roms will be mounted to recalbox directory automatically.
 
-- copy ```custom.sh``` in ```/recalbox/share/system``` (if you are using credentials/user/password for samba share copy ```smbcredentials``` file too after editing credentials.)
+- copy ```custom.sh``` in ```/recalbox/share/system``` (if you are using credentials/user/password for samba share copy ```.smbcredentials``` file too after editing credentials.)
 
 - restart Recalbox and then run ```UI Settings > Update Game List```
 
@@ -24,7 +24,7 @@ if you have organized ROM directory same with /recalbox/share/roms, use simplifi
 
 - if your ROM directory is not organized as in /recalbox/share/roms, then you need to add each samba shared roms directory and mount points to the script manually.
 
-- copy ```custom.sh``` in ```/recalbox/share/system``` (if you are using credentials/user/password for samba share copy ```smbcredentials``` file too after editing credentials.)
+- copy ```custom.sh``` in ```/recalbox/share/system``` (if you are using credentials/user/password for samba share copy ```.smbcredentials``` file too after editing credentials.)
 
 - restart Recalbox and then run ```UI Settings > Update Game List```
 
