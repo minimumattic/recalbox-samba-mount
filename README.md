@@ -11,6 +11,8 @@ if you have organized ROM directory same with /recalbox/share/roms, use simplifi
 
 - rename ```custom.sh.organized``` to ```custom.sh``` and then edit with your samba shared directory and IP address.
 
+- when your ROM directory is same with /recalbox/share/roms, your samba shared roms will be mounted to recalbox directory automatically.
+
 - copy ```custom.sh``` in ```/recalbox/share/system``` (if you are using credentials/user/password for samba share copy ```smbcredentials``` file too after editing credentials.)
 
 - restart Recalbox and then run ```UI Settings > Update Game List```
@@ -19,6 +21,8 @@ if you have organized ROM directory same with /recalbox/share/roms, use simplifi
 # for Unorganized ROM directory:
 
 - rename ```custom.sh.unorganized``` to ```custom.sh``` and then edit with your samba shared directory and IP address.
+
+- if your ROM directory is not organized as in /recalbox/share/roms, then you need to add each samba shared roms directory and mount points to the script manually.
 
 - copy ```custom.sh``` in ```/recalbox/share/system``` (if you are using credentials/user/password for samba share copy ```smbcredentials``` file too after editing credentials.)
 
