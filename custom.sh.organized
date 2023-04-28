@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PARAMS="-o credentials=/recalbox/share/system/.smbcredentials,uid=0,gid=0,noperm,ro"    # if you don't have samba share credentials and you enabled "guest" access in your samba share then replace this line with "-o guest,ro"
+PARAMS="-o credentials=/recalbox/share/system/.smbcredentials,uid=0,gid=0,noperm,ro,vers=2.0"    # if you don't have samba share credentials and you enabled "guest" access in your samba share then replace this line with "-o guest,ro"
 LAN="//192.168.1.10/Games/roms"   # change this with your samba shared ip address and roms directory.
 RBROMS="/recalbox/share/roms"
 
