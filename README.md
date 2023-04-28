@@ -5,7 +5,7 @@ if you have organized ROM directory same with /recalbox/share/roms, use simplifi
 
 # for organized ROM directory:
 
-- samba shared ROM directory in your PC/External drive/NAS should look same with all rom folders as in /recalbox/share/roms as screenshot below
+- samba shared ROM directory in your PC/External drive/NAS should look same with rom folders you want to add as in /recalbox/share/roms as screenshot below
 
 ![Screenshot from 2023-04-28 15-37-41](https://user-images.githubusercontent.com/72235930/235149394-f5dab7ef-a366-4054-8601-54b484de5b77.png)
 
