@@ -28,6 +28,6 @@ if you have organized ROM directory same with /recalbox/share/roms, use simplifi
 
 - restart Recalbox and then run ```UI Settings > Update Game List```
 
-- with unorganized script, it will create ```NETWORK``` folder in each /recalbox/share/roms/* directories and mount samba shared roms directory into there.
+- with unorganized script, it will create ```NETWORK``` folder in each /recalbox/share/roms/* directories and mount samba shared roms into there.
 
 Note: This script is inspired and modified by @Wizzard's (https://github.com/WizzardSK) online rom mounting script (Gameflix). Thanks him for contributions.
