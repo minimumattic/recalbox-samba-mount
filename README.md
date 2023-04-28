@@ -1,5 +1,5 @@
 # recalbox-samba-mount
-Recalbox samba/network share mounting script.
+Recalbox samba/network share roms mounting script.
 
 Directly play ROMs via Network share.
 
