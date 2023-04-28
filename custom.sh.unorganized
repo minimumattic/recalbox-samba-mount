@@ -15,14 +15,14 @@ then
 	mount.cifs ${LAN}/console-games/Nintendo/N64 ${RBROMS}/n64/network $PARAMS
 	mount.cifs ${LAN}/console-games/Nintendo/GB ${RBROMS}/gb/network $PARAMS
 	mount.cifs ${LAN}/console-games/Nintendo/GBC ${RBROMS}/gbc/network $PARAMS
-  mount.cifs ${LAN}/console-games/SEGA/Dreamcast ${RBROMS}/dreamcast/network $PARAMS
+  	mount.cifs ${LAN}/console-games/SEGA/Dreamcast ${RBROMS}/dreamcast/network $PARAMS
 	mount.cifs ${LAN}/console-games/SEGA/Mega\ Drive ${RBROMS}/megadrive/network $PARAMS
 	mount.cifs ${LAN}/console-games/SEGA/Master\ System ${RBROMS}/mastersystem/network $PARAMS
-  mount.cifs ${LAN}/Arcade/MAME ${RBROMS}/mame/network $PARAMS
+  	mount.cifs ${LAN}/Arcade/MAME ${RBROMS}/mame/network $PARAMS
 	mount.cifs ${LAN}/Arcade/Final\ Burn\ Neo ${RBROMS}/fbneo/network $PARAMS
-  mount.cifs ${LAN}/console-games/ATARI/ATARI-5200 ${RBROMS}/atari5200/network $PARAMS
+  	mount.cifs ${LAN}/console-games/ATARI/ATARI-5200 ${RBROMS}/atari5200/network $PARAMS
 	mount.cifs ${LAN}/console-games/ATARI/ATARI-7800 ${RBROMS}/atari7800/network $PARAMS
-  mount.cifs ${LAN}/console-games/Commodore/C64 ${RBROMS}/c64/network $PARAMS
+  	mount.cifs ${LAN}/console-games/Commodore/C64 ${RBROMS}/c64/network $PARAMS
 	mount.cifs ${LAN}/console-games/Commodore/VIC-20 ${RBROMS}/vic20/network $PARAMS
   
   fi
