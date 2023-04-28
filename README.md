@@ -9,7 +9,7 @@ if you have organized ROM directory same with /recalbox/share/roms, use simplifi
 
 ![Screenshot from 2023-04-28 15-37-41](https://user-images.githubusercontent.com/72235930/235149394-f5dab7ef-a366-4054-8601-54b484de5b77.png)
 
-- rename ```custom.sh.organized``` to ```custom.sh``` and then edit with your samba shared directory and IP address.
+- rename ```custom.sh.organized``` to ```custom.sh``` and then edit with your samba shared directory and IP address preferences.
 
 - when your ROM directory is organized same with /recalbox/share/roms, your samba shared roms will be mounted to recalbox directory automatically.
 
@@ -20,7 +20,7 @@ if you have organized ROM directory same with /recalbox/share/roms, use simplifi
 
 # for Unorganized ROM directory:
 
-- rename ```custom.sh.unorganized``` to ```custom.sh``` and then edit with your samba shared directory and IP address.
+- rename ```custom.sh.unorganized``` to ```custom.sh``` and then edit with your samba shared directory and IP address preferences.
 
 - if your ROM directory is not organized as in /recalbox/share/roms, then you need to add each samba shared roms directory and mount points to the script manually.
 
