@@ -24,4 +24,4 @@ if you have organized ROM directory same with /recalbox/share/roms, use simplifi
 
 - restart Recalbox and then run ```UI Settings > Update Game List```
 
-Note: This script is inspired and modified by @Wizard's (https://github.com/WizzardSK) online rom mounting script (Gameflix). Thanks him for contributions.
+Note: This script is inspired and modified by @Wizzard's (https://github.com/WizzardSK) online rom mounting script (Gameflix). Thanks him for contributions.
