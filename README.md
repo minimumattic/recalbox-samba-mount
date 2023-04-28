@@ -1,7 +1,7 @@
 # recalbox-samba-mount
 Recalbox samba/network share mounting script
 
-if you have organized ROM directory same with /recalbox/share/roms, use simplified ```custom.sh``` other wise if you have unorganized ROM directory use ```custom.sh.unorganized```.
+if you have organized ROM directory same with /recalbox/share/roms, use simplified ```custom.sh.organized``` other wise if you have unorganized ROM directory use ```custom.sh.unorganized```.
 
 # for organized ROM directory:
 
