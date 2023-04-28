@@ -1,5 +1,7 @@
 # recalbox-samba-mount
-Recalbox samba/network share mounting script
+Recalbox samba/network share mounting script.
+
+Directly play ROMs via Network share.
 
 if you have organized ROM directory same with /recalbox/share/roms, use simplified ```custom.sh.organized``` other wise if you have unorganized ROM directory use ```custom.sh.unorganized```.
 
