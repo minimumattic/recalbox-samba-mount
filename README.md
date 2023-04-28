@@ -9,9 +9,9 @@ if you have organized ROM directory same with /recalbox/share/roms, use simplifi
 
 ![Screenshot from 2023-04-28 15-37-41](https://user-images.githubusercontent.com/72235930/235149394-f5dab7ef-a366-4054-8601-54b484de5b77.png)
 
-- edit custom.sh according to your ROM directory and samba share IP address
+- rename ```custom.sh.organized``` to ```custom.sh``` and then edit with your samba shared directory and IP address.
 
-- copy ```custom.sh``` in /recalbox/share/system (if you are using credentials/user/password for samba share copy ```smbcredentials``` file too after editing credentials.)
+- copy ```custom.sh``` in ```/recalbox/share/system``` (if you are using credentials/user/password for samba share copy ```smbcredentials``` file too after editing credentials.)
 
 - restart Recalbox and then run ```UI Settings > Update Game List```
 
@@ -20,7 +20,7 @@ if you have organized ROM directory same with /recalbox/share/roms, use simplifi
 
 - rename ```custom.sh.unorganized``` to ```custom.sh``` and then edit with your samba shared directory and IP address.
 
-- copy ```custom.sh``` in /recalbox/share/system (if you are using credentials/user/password for samba share copy ```smbcredentials``` file too after editing credentials.)
+- copy ```custom.sh``` in ```/recalbox/share/system``` (if you are using credentials/user/password for samba share copy ```smbcredentials``` file too after editing credentials.)
 
 - restart Recalbox and then run ```UI Settings > Update Game List```
 
