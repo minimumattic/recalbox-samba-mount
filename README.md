@@ -30,4 +30,4 @@ if you have organized ROM directory same with /recalbox/share/roms, use simplifi
 
 - with unorganized script, it will create ```NETWORK``` folder in each /recalbox/share/roms/* directories and mount samba shared roms into there.
 
-*Note:* This script is inspired and modified by @Wizzard's (https://github.com/WizzardSK/gameflix) online rom mounting script (Gameflix). Thanks him for contributions.
+*Note: This script is inspired and modified by @Wizzard's (https://github.com/WizzardSK/gameflix) online rom mounting script (Gameflix). Thanks him for contributions.*
