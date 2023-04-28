@@ -1,0 +1,28 @@
+#!/bin/bash
+
+for dir in /recalbox/share/roms/*/; do mkdir -p "$dir/network"; done
+
+PARAMS="-o credentials=/recalbox/share/system/.smbcredentials,uid=0,gid=0,noperm,ro"
+LAN="//192.168.1.10/games"
+RBROMS="/recalbox/share/roms"
+
+if [ $1 == "start" ]
+
+then
+	mount.cifs ${LAN}/dos-games ${RBROMS}/dos/network $PARAMS
+	mount.cifs ${LAN}/console-games/Nintendo/NES ${RBROMS}/nes/network $PARAMS
+	mount.cifs ${LAN}/console-games/Nintendo/SNES ${RBROMS}/snes/network $PARAMS
+	mount.cifs ${LAN}/console-games/Nintendo/N64 ${RBROMS}/n64/network $PARAMS
+	mount.cifs ${LAN}/console-games/Nintendo/GB ${RBROMS}/gb/network $PARAMS
+	mount.cifs ${LAN}/console-games/Nintendo/GBC ${RBROMS}/gbc/network $PARAMS
+  mount.cifs ${LAN}/console-games/SEGA/Dreamcast ${RBROMS}/dreamcast/network $PARAMS
+	mount.cifs ${LAN}/console-games/SEGA/Mega\ Drive ${RBROMS}/megadrive/network $PARAMS
+	mount.cifs ${LAN}/console-games/SEGA/Master\ System ${RBROMS}/mastersystem/network $PARAMS
+  mount.cifs ${LAN}/Arcade/MAME ${RBROMS}/mame/network $PARAMS
+	mount.cifs ${LAN}/Arcade/Final\ Burn\ Neo ${RBROMS}/fbneo/network $PARAMS
+  mount.cifs ${LAN}/console-games/ATARI/ATARI-5200 ${RBROMS}/atari5200/network $PARAMS
+	mount.cifs ${LAN}/console-games/ATARI/ATARI-7800 ${RBROMS}/atari7800/network $PARAMS
+  mount.cifs ${LAN}/console-games/Commodore/C64 ${RBROMS}/c64/network $PARAMS
+	mount.cifs ${LAN}/console-games/Commodore/VIC-20 ${RBROMS}/vic20/network $PARAMS
+  
+  fi
