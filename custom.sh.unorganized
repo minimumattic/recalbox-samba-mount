@@ -2,8 +2,8 @@
 
 for dir in /recalbox/share/roms/*/; do mkdir -p "$dir/network"; done
 
-PARAMS="-o credentials=/recalbox/share/system/.smbcredentials,uid=0,gid=0,noperm,ro"
-LAN="//192.168.1.10/games"
+PARAMS="-o credentials=/recalbox/share/system/.smbcredentials,uid=0,gid=0,noperm,ro"    # if you don't have samba share credentials and you enabled "guest" access in your samba share then replace this line with "-o guest,ro"
+LAN="//192.168.1.10/Games"   # change this with your samba shared ip address and roms directory.
 RBROMS="/recalbox/share/roms"
 
 if [ $1 == "start" ]
