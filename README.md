@@ -23,3 +23,5 @@ if you have organized ROM directory same with /recalbox/share/roms, use simplifi
 - copy ```custom.sh``` in /recalbox/share/system (if you are using credentials/user/password for samba share copy ```smbcredentials``` file too after editing credentials.)
 
 - restart Recalbox and then run ```UI Settings > Update Game List```
+
+Note: This script is inspired and modified by @Wizard's (https://github.com/WizzardSK) online rom mounting script (Gameflix). Thanks him for contributions.
