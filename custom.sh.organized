@@ -7,7 +7,6 @@ RBROMS="/recalbox/share/roms"
 if [ $1 == "start" ]
 
     then
-    
     mount.cifs ${LAN} ${RBROMS} $PARAMS
     
 fi

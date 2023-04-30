@@ -9,7 +9,6 @@ RBROMS="/recalbox/share/roms"
 if [ $1 == "start" ]
 
 	then
-	
 	mount.cifs ${LAN}/dos-games ${RBROMS}/dos/network $PARAMS
 	mount.cifs ${LAN}/console-games/Nintendo/NES ${RBROMS}/nes/network $PARAMS
 	mount.cifs ${LAN}/console-games/Nintendo/SNES ${RBROMS}/snes/network $PARAMS
